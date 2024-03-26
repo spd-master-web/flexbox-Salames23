@@ -1,0 +1,153 @@
+
+.navigation-1 {
+  min-width: 40em;
+  background-color: #ffc0cb;
+}
+.navigation-list1 {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.navigation-item1 {
+  margin: .25em 0;
+  border-right: .125em solid red;
+}
+.navigation-item1 {
+  margin: .25em 0;
+  border-right: .125em solid red;
+}
+
+.navigation-item1:last-child {
+  border-right: 0;
+}
+
+.navigation-link1 {
+  padding: 1em;
+  display: block;
+  color: #ff0000;
+}
+
+/*+++++++++++++++ Navigation 2 +++++++++++++++*/
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.navigation-2 {
+  min-width: 40em;
+  background-color: #ffc0cb;
+  display: flex;
+  flex-direction: row;
+}
+
+.title{
+  display: flex;
+  justify-content: left;
+  margin-right: auto;
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-decoration: underline;
+  width: 230px;
+  color: white;
+  background-color: red;
+}
+
+.navigation-list { 
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.navigation-item {
+  margin: .25em 0;
+  border-right: .125em solid red;
+}
+.navigation-item {
+  margin: .25em 0;
+  border-right: .125em solid red;
+}
+
+.navigation-item:last-child {
+  border-right: 0;
+}
+
+.navigation-link {
+  padding: 1em;
+  display: block;
+  color: #ff0000;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-decoration: underline;
+    width: 700px;
+    color: white;
+    background-color: red;
+  }
+  .navigation-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+}
+/*+++++++++++++++ Navigation 3 +++++++++++++++*/
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.navigation-3 {
+  min-width: 40em;
+  background-color: #ffc0cb;
+}
+.navigation-list {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navigation-item {
+  margin: 0;
+  border-right: .125em solid red;
+}
+.navigation-item {
+  margin: 0;
+  border-right: .125em solid red;
+}
+
+.navigation-item:last-child {
+  border-right: 0;
+}
+
+.navigation-link {
+  padding: 1em 6em;
+
+  display: block;
+
+  color: #ff0000;
+}
