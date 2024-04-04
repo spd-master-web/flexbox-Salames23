@@ -58,18 +58,21 @@ p {
   padding: 1em;
   min-width: 30%;
   background-color: gray;
+  order: 1;
 }
 
 .content-item {
   padding: 1em;
   min-width: 70%;
   background-color: white;
+  order: 2;
 }
 
 .sidebar-item {
   padding: 1.5em;
   flex: 0 1 65%;
   background-color: gray;
+  order: 3;
 }
 
 .copyright {
@@ -89,3 +92,25 @@ p {
 .align-stretch {
   align-self: stretch;
 }
+
+@media only screen and (max-width: 960px) {
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    min-height: 30em;
+    border: .5em solid #ff0000;
+  }
+}
+.nav-item {
+  order:2;
+}
+.sidebar-item {
+  order:3;
+}
+.content-item {
+  order:1;
+}
+
+
+
